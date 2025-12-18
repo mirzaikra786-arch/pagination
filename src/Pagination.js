@@ -16,7 +16,7 @@ const fetchdata= async() =>{
  setEmployeeData(response.data);
 console.log(response.data);}
 catch(error){
-  console.error("having error in fetching data", error); }
+  alert("having error in fetching data", error); }
  }    
 
 useEffect(()=>{
